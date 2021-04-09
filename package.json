@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "main": "build/index.js",
   "types": "build/index.d.ts",
-  "description": "a package to convert numbers from one base to another",
+  "description": "A package to convert numbers from one base to another",
   "license": "MIT",
+  "private": false,
   "scripts": {
     "check-types": "tsc --noEmit",
     "clean": "rimraf build",
