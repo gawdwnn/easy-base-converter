@@ -21,7 +21,7 @@ npm install easy-base-converter
 ### Initialize
 
 ```javascript
-import { BaseConverter } from 'baseConverter'
+import { BaseConverter } from 'easy-base-converter'
 
 const baseConverter = new BaseConverter();
 ```
