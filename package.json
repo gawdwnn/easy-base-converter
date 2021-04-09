@@ -6,6 +6,14 @@
   "description": "A package to convert numbers from one base to another",
   "license": "MIT",
   "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smarttin/base-converter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/smarttin/base-converter/issues"
+  },
+  "homepage": "https://github.com/smarttin/base-converter#readme",
   "scripts": {
     "check-types": "tsc --noEmit",
     "clean": "rimraf build",
