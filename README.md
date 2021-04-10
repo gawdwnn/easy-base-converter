@@ -1,5 +1,7 @@
 # Easy Base Converter
 
+![badge](https://github.com/smarttin/easy-base-converter/workflows/Deployment%20to%20NPM%20registry/badge.svg)
+
 Base converter is a NPM Package useful for converting numbers from one base to another.
 
 ## Installation
@@ -21,7 +23,7 @@ npm install easy-base-converter
 ### Initialize
 
 ```javascript
-import { BaseConverter } from 'easy-base-converter'
+import { BaseConverter } from 'easy-base-converter';
 
 const baseConverter = new BaseConverter();
 ```
@@ -60,8 +62,8 @@ convertOptions = {
 ```
 
 ```javascript
-baseConverter.convert('78', {fromBase: 11, toBase: 6}) // returns '221'
-baseConverter.convert('45.5', {fromBase: 14, toBase: 2}) // returns '111101.01'
+baseConverter.convert('78', { fromBase: 11, toBase: 6 }); // returns '221'
+baseConverter.convert('45.5', { fromBase: 14, toBase: 2 }); // returns '111101.01'
 ```
 
 ## Contributing
